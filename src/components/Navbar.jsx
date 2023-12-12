@@ -5,7 +5,7 @@ function Navbar() {
     <header className='header'>
       <nav>
         <div className='logo'>
-          <Link to='#home'>
+          <Link to='#'>
             {`<Ruben`}
             <span>{`Abreu/>`}</span>
           </Link>

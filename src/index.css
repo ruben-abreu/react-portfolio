@@ -36,6 +36,13 @@ nav {
   width: 80vw;
 }
 
+.landing {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .logo a {
   font-size: 24px;
   font-weight: bold;
