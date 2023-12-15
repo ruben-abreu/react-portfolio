@@ -3,13 +3,13 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+import Projects from './pages/Projects';
 import {
   Element,
   Events,
   animateScroll as scroll,
   scrollSpy,
 } from 'react-scroll';
-
 class App extends React.Component {
   componentDidMount() {
     scrollSpy.update();
@@ -31,6 +31,7 @@ class App extends React.Component {
       duration: 500,
       smooth: true,
     });
+    console.log(`Scrolling to section: ${sectionName}`);
   };
 
   render() {
@@ -44,7 +45,7 @@ class App extends React.Component {
           <About />
         </Element>
         <Element name='projects' className='element'>
-          {/*  <Projects /> */}
+          <Projects />
         </Element>
         <Element name='skills' className='element'>
           {/*   <Skills /> */}
