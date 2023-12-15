@@ -1,11 +1,16 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
-function Navbar() {
+function Navbar({ scrollToSection }) {
   return (
     <header className='header'>
       <nav>
         <div className='logo'>
-          <Link to='#'>
+          <Link
+            to='home'
+            smooth={true}
+            duration={500}
+            onClick={() => scrollToSection('home')}
+          >
             {`<Ruben`}
             <span>{`Abreu/>`}</span>
           </Link>
@@ -16,17 +21,43 @@ function Navbar() {
         </label>
         <ul className='menu'>
           <li>
-            <Link to='#about'>About Me</Link>
+            <Link
+              to='about'
+              smooth={true}
+              duration={500}
+              onClick={() => scrollToSection('about')}
+            >
+              About
+            </Link>
           </li>
-
           <li>
-            <Link to='#projects'>Projects</Link>
+            <Link
+              to='projects'
+              smooth={true}
+              duration={500}
+              onClick={() => scrollToSection('projects')}
+            >
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to='#skills'>Skills</Link>
+            <Link
+              to='skills'
+              smooth={true}
+              duration={500}
+              onClick={() => scrollToSection('skills')}
+            >
+              Skills
+            </Link>
           </li>
           <li>
-            <Link to='#contact' className='navbar-btn'>
+            <Link
+              to='section4'
+              className='navbar-btn'
+              smooth={true}
+              duration={500}
+              onClick={() => scrollToSection('section4')}
+            >
               Contact Me
             </Link>
           </li>
