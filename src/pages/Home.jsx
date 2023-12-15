@@ -2,7 +2,7 @@ import avatar from '../assets/Screenshot 2023-12-14 at 17.36.03.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Home() {
   const [text, setText] = useState("I'm a full stack developer.");
@@ -62,7 +62,12 @@ function Home() {
           </div>
         </div>
         <div className='text-center'>
-          <img src={avatar} alt='avatar' className='mx-auto' width='200px' />
+          <img
+            src={avatar}
+            alt='avatar'
+            className='mx-auto rounded-lg'
+            width='200px'
+          />
         </div>
       </div>
     </div>
