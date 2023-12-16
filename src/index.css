@@ -92,6 +92,9 @@ nav {
 .shadow-custom {
   box-shadow: 0 8px 32px 0 rgba(1, 116, 190, 0.37);
 }
+.custom-box-shadow {
+  box-shadow: 0 8px 32px 0 rgba(1, 116, 190, 0.37);
+}
 
 .navbar-btn {
   padding: 10px;

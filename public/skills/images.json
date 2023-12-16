@@ -1,0 +1,42 @@
+[
+  {
+    "name": "React",
+    "imageUrl": "../skills/react-javascript-js-framework-facebook.svg"
+  },
+  {
+    "name": "Javascript",
+    "imageUrl": "../skills/javascript.svg"
+  },
+  {
+    "name": "HTML5",
+    "imageUrl": "../skills/html5.svg"
+  },
+  {
+    "name": "CSS",
+    "imageUrl": "../skills/css.svg"
+  },
+  {
+    "name": "Tailwind-CSS",
+    "imageUrl": "../skills/tailwind-css.svg"
+  },
+  {
+    "name": "Excel",
+    "imageUrl": "../skills/excel.svg"
+  },
+  {
+    "name": "Git",
+    "imageUrl": "../skills/git.svg"
+  },
+  {
+    "name": "MongoDB",
+    "imageUrl": "../skills/mongodb.svg"
+  },
+  {
+    "name": "Node-JS",
+    "imageUrl": "../skills/node-js.svg"
+  },
+  {
+    "name": "SQL",
+    "imageUrl": "../skills/sql.svg"
+  }
+]

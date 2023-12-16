@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Skills from './pages/Skills';
 import {
   Element,
   Events,
@@ -48,7 +49,7 @@ class App extends React.Component {
           <Projects />
         </Element>
         <Element name='skills' className='element'>
-          {/*   <Skills /> */}
+          <Skills />
         </Element>
         <Element name='contact' className='element'>
           {/*   <Contact Me /> */}
