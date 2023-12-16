@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 function Navbar({ scrollToSection }) {
   return (
     <header className='header'>
-      <nav>
+      <nav className='max-w-[100%]'>
         <div className='logo'>
           <Link
             to='home'
