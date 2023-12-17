@@ -3,24 +3,29 @@ import goku from '../assets/goku-learning-react-2.png';
 function About() {
   return (
     <div>
-      <h2 className='text-[#0174be] text-2xl font-bold mt-11'>
+      <h2 className='text-[#0174be] text-2xl font-bold '>
         About <span className='text-white'>Me</span>
       </h2>
       <div className='flex flex-col lg:flex-row lg:justify-center items-center '>
         <div className='max-w-[65%] p-4 text-justify border border-white mx-auto lg:mr-10 lg:order-2'>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque lectus felis, volutpat non quam vel, hendrerit
-            tincidunt tortor. Duis vel pretium felis, id tempus nibh. Donec
-            scelerisque mattis tempor. Donec risus justo, pellentesque ac tortor
-            in, posuere pellentesque libero. Ut in purus turpis. Proin a congue
-            ante. Donec risus tortor, sollicitudin et elit vitae, consectetur
-            facilisis erat. Maecenas non augue eget ex.
-            <p>
-              Convallis feugiat. Curabitur vitae tortor porttitor ipsum
-              convallis sollicitudin eu eget lectus. Etiam semper diam non
-              sapien malesuada, vitae varius est finibus. Sed sed varius justo.
-              Nullam semper sem non diam condimentum pellentesque.
+          <p className='mt-12'>
+            &ensp;As a full stack developer, my journey began with a
+            transformative experience at Ironhack, renowned as one of the best
+            bootcamps globally. The curriculum gave me with a diverse set of
+            skills, ranging from front-end technologies like JavaScript and it's
+            library React to back-end frameworks such as Node.js. Throughout the
+            bootcamp, I did projects that simulated real-world scenarios, in an
+            environment where problem-solving and creativity were constant. I
+            improved not only my coding abilities but also gained a strong sense
+            of teamwork, a quality essential for success in the dynamic field of
+            software development.
+            <p className='mt-12'>
+              &ensp;I have a background in cybersecurity and as such I bring a
+              unique perspective to my development work, prioritizing robust and
+              secure solutions. My cybersecurity expertise and passion for
+              coding allows me to create applications that not only meet
+              functional requirements but also adhere to the highest standards
+              of data protection.
             </p>
           </p>
         </div>

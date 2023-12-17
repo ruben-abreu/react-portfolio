@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import Contact from './pages/Contact';
+
 import {
   Element,
   Events,
@@ -42,7 +44,7 @@ class App extends React.Component {
         <Element name='home' className='element'>
           <Home />
         </Element>
-        <Element name='about' className='element'>
+        <Element name='about' className='element mt-[100px]'>
           <About />
         </Element>
         <Element name='projects' className='element'>
@@ -52,7 +54,7 @@ class App extends React.Component {
           <Skills />
         </Element>
         <Element name='contact' className='element'>
-          {/*   <Contact Me /> */}
+          <Contact />
         </Element>
       </div>
     );

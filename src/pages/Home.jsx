@@ -1,4 +1,4 @@
-import avatar from '../assets/Screenshot 2023-12-14 at 17.36.03.png';
+import avatar from '../assets/IMG_4976.jpeg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
@@ -37,8 +37,8 @@ function Home() {
           <img
             src={avatar}
             alt='avatar'
-            className='mx-auto rounded-lg'
-            width='200px'
+            className='mx-auto rounded-lg opacity-[0.88] mt-4'
+            width='240px'
           />
         </div>
         <div className='md:flex items-center justify-center gap-4 md:mt-8'>

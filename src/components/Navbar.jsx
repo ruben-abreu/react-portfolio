@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from 'react-scroll';
 
 function Navbar({ scrollToSection }) {
@@ -52,11 +53,11 @@ function Navbar({ scrollToSection }) {
           </li>
           <li>
             <Link
-              to='section4'
+              to='contact'
               className='navbar-btn'
               smooth={true}
               duration={500}
-              onClick={() => scrollToSection('section4')}
+              onClick={() => scrollToSection('contact')}
             >
               Contact Me
             </Link>

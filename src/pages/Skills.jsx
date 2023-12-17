@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import SkillsData from '../../public/skills/images.json';
 
 const Skills = () => {
@@ -22,7 +23,7 @@ const Skills = () => {
 
   return (
     <div>
-      <h2 className='text-[#0174be] text-2xl font-bold mb-4'>
+      <h2 className='text-[#0174be] text-2xl font-bold mb-20 mt-[100px]'>
         My <span className='text-white'>Skills</span>
       </h2>
       <div className='flex flex-wrap items-center justify-center'>{boxes}</div>
