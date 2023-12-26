@@ -9,11 +9,11 @@ function About() {
       <div className='flex flex-col lg:flex-row lg:justify-center items-center '>
         <div className='max-w-[65%] p-4 text-justify border border-white mx-auto lg:mr-10 lg:order-2'>
           <p className='mt-12'>
-            &ensp;As a full stack developer, my journey began with a
-            transformative experience at Ironhack, renowned as one of the best
-            bootcamps globally. The curriculum gave me with a diverse set of
-            skills, ranging from front-end technologies like JavaScript and it's
-            library React to back-end frameworks such as Node.js. Throughout the
+            &ensp;I started as full stack developer with a transformative
+            experience at Ironhack, renowned as one of the best bootcamps
+            globally. The curriculum gave me with a diverse set of skills,
+            ranging from front-end technologies like JavaScript and it's library
+            React to back-end frameworks such as Node.js. Throughout the
             bootcamp, I did projects that simulated real-world scenarios, in an
             environment where problem-solving and creativity were constant. I
             improved not only my coding abilities but also gained a strong sense
