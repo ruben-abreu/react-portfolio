@@ -6,8 +6,8 @@ function About() {
       <h2 className='text-[#0174be] text-2xl font-bold '>
         About <span className='text-white'>Me</span>
       </h2>
-      <div className='flex flex-col lg:flex-row lg:justify-center items-center '>
-        <div className='max-w-[65%] p-4 text-justify border border-white mx-auto lg:mr-10 lg:order-2'>
+      <div className='flex flex-col lg:flex-row lg:justify-center items-center'>
+        <div className='max-w-[65%] p-4 pt-0 text-justify border border-white mx-auto lg:mr-10 lg:order-2'>
           <p className='mt-12'>
             &ensp;I started as full stack developer with a transformative
             experience at Ironhack, renowned as one of the best bootcamps
@@ -19,7 +19,7 @@ function About() {
             improved not only my coding abilities but also gained a strong sense
             of teamwork, a quality essential for success in the dynamic field of
             software development.
-            <p className='mt-12'>
+            <p className='mt-12 pb-4'>
               &ensp;I have a background in cybersecurity and as such I bring a
               unique perspective to my development work, prioritizing robust and
               secure solutions. My cybersecurity expertise and passion for
