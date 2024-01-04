@@ -47,7 +47,7 @@ function Home() {
             My CV
           </button>
           <a
-            href='https://www.linkedin.com/in/ruben-abreu1/'
+            href='https://www.linkedin.com/in/rm-abreu/'
             target='_blank'
             rel='noopener noreferrer'
           >
