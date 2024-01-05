@@ -38,5 +38,9 @@
   {
     "name": "SQL",
     "imageUrl": "../skills/sql.svg"
+  },
+  {
+    "name": "PHP",
+    "imageUrl": "../skills/php.svg"
   }
 ]
