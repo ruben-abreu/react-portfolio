@@ -42,5 +42,9 @@
   {
     "name": "PHP",
     "imageUrl": "../skills/php.svg"
+  },
+  {
+    "name": "Wordpress",
+    "imageUrl": "../skills/wordpress.svg"
   }
 ]
