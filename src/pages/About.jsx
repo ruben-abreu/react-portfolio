@@ -15,10 +15,9 @@ function About() {
             ranging from front-end technologies like JavaScript and it's library
             React to back-end frameworks such as Node.js. Throughout the
             bootcamp, I did projects that simulated real-world scenarios, in an
-            environment where problem-solving and creativity were constant. I
-            improved not only my coding abilities but also gained a strong sense
-            of teamwork, a quality essential for success in the dynamic field of
-            software development.
+            environment where problem-solving and creativity were constant,
+            improving not only my coding abilities but also gaining a strong
+            sense of teamwork.
             <p className='mt-12 pb-4'>
               &ensp;I have a background in cybersecurity and as such I bring a
               unique perspective to my development work, prioritizing robust and
