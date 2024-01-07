@@ -14,17 +14,16 @@ function About() {
             globally. The curriculum gave me with a diverse set of skills,
             ranging from front-end technologies like JavaScript and it's library
             React to back-end frameworks such as Node.js. Throughout the
-            bootcamp, I did projects that simulated real-world scenarios, in an
-            environment where problem-solving and creativity were constant,
+            bootcamp, I did projects that simulated real-world scenarios
             improving not only my coding abilities but also gaining a strong
             sense of teamwork.
             <p className='mt-12 pb-4'>
               &ensp;I have a background in cybersecurity and as such I bring a
-              unique perspective to my development work, prioritizing robust and
-              secure solutions. My cybersecurity expertise and passion for
-              coding allows me to create applications that not only meet
-              functional requirements but also adhere to the highest standards
-              of data protection.
+              unique perspective to my development work, prioritizing secure
+              solutions. My cybersecurity expertise and passion for coding
+              allows me to create applications that not only meet functional
+              requirements but also adhere to the highest standards of data
+              protection.
             </p>
           </p>
         </div>
