@@ -17,7 +17,10 @@ function Contact() {
           </p>
           <p>
             <LocationOnIcon />
-            &nbsp;&nbsp; Lisbon, Portugal
+            <a href='https://maps.app.goo.gl/p21MQCrtdEj5Ws8s6'>
+              {' '}
+              &nbsp;&nbsp; Lisbon, Portugal{' '}
+            </a>
           </p>
         </div>
       </div>
