@@ -32,7 +32,7 @@ function Projects() {
     {
       id: 3,
       image: 'https://www.iconbolt.com/preview/facebook/charm-icons/github.svg',
-      title: 'Lizard 3',
+      title: 'Atlas of Conquest',
       description:
         'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica.',
       github: 'https://github.com/ruben-abreu/project-maze-game',
