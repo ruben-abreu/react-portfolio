@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Quidditch from '../assets/Quidditch Maze.png';
 import Pokedex from '../assets/pokedex.png';
+import Atlas from '../assets/atlas.png';
 
 function Projects() {
   const cardsData = [
@@ -31,7 +32,7 @@ function Projects() {
     },
     {
       id: 3,
-      image: 'https://www.iconbolt.com/preview/facebook/charm-icons/github.svg',
+      image: Atlas,
       title: 'Atlas of Conquest',
       description:
         'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica.',
