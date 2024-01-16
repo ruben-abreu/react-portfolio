@@ -37,7 +37,7 @@ function Projects() {
       description:
         'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica.',
       github: 'https://github.com/ruben-abreu/project-maze-game',
-      demo: 'https://quidditch-maze.netlify.app',
+      demo: 'https://atlasofconquests.netlify.app',
     },
   ];
 
