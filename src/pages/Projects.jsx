@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -34,8 +33,7 @@ function Projects() {
       id: 3,
       image: Atlas,
       title: 'Atlas of Conquest',
-      description:
-        'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica.',
+      description: 'A World map',
       github: 'https://github.com/ruben-abreu/project-maze-game',
       demo: 'https://atlasofconquests.netlify.app',
     },
