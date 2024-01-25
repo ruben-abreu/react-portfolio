@@ -33,7 +33,7 @@ function Projects() {
       id: 3,
       image: Atlas,
       title: 'Atlas of Conquest',
-      description: 'A World map',
+      description: 'A World map. With pwa',
       github: 'https://github.com/ruben-abreu/project-maze-game',
       demo: 'https://atlasofconquests.netlify.app',
     },
