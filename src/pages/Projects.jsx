@@ -33,7 +33,7 @@ function Projects() {
       id: 3,
       image: Atlas,
       title: 'Atlas of Conquest',
-      description: 'A World map app. Built with React JS',
+      description: 'A World map app. Built with React JS and Tailwind CSS.',
       github: 'https://github.com/ruben-abreu/project-maze-game',
       demo: 'https://atlasofconquests.netlify.app',
     },
