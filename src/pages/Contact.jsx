@@ -24,7 +24,7 @@ function Contact() {
         </div>
       </div>
       <footer className='text-center mt-4'>
-        © 2024. Made with ❤️ by Ruben Abreu.
+        © {new Date().getFullYear()}. Made with ❤️ by Ruben Abreu.
       </footer>
     </div>
   );
