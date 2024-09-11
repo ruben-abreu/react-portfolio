@@ -8,6 +8,14 @@
     "imageUrl": "../skills/javascript.svg"
   },
   {
+    "name": "Python",
+    "imageUrl": "../skills/python.svg"
+  },
+  {
+    "name": "Django",
+    "imageUrl": "../skills/django.svg"
+  },
+  {
     "name": "HTML5",
     "imageUrl": "../skills/html5.svg"
   },
