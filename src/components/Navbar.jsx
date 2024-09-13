@@ -1,7 +1,18 @@
-/* eslint-disable react/prop-types */
+import { useState } from 'react';
 import { Link } from 'react-scroll';
 
 function Navbar({ scrollToSection }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = section => {
+    scrollToSection(section);
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className='header'>
       <nav className='max-w-[100%]'>
@@ -10,23 +21,28 @@ function Navbar({ scrollToSection }) {
             to='home'
             smooth={true}
             duration={500}
-            onClick={() => scrollToSection('home')}
+            onClick={() => closeMenu('home')}
           >
             {`<Ruben`}
             <span>{`Abreu/>`}</span>
           </Link>
         </div>
-        <input type='checkbox' id='menu-toggle' />
+        <input
+          type='checkbox'
+          id='menu-toggle'
+          checked={isMenuOpen}
+          onChange={toggleMenu}
+        />
         <label htmlFor='menu-toggle' className='menu-icon'>
           &#9776;
         </label>
-        <ul className='menu'>
+        <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
           <li>
             <Link
               to='about'
               smooth={true}
               duration={500}
-              onClick={() => scrollToSection('about')}
+              onClick={() => closeMenu('about')}
             >
               About
             </Link>
@@ -36,7 +52,7 @@ function Navbar({ scrollToSection }) {
               to='projects'
               smooth={true}
               duration={500}
-              onClick={() => scrollToSection('projects')}
+              onClick={() => closeMenu('projects')}
             >
               Projects
             </Link>
@@ -46,7 +62,7 @@ function Navbar({ scrollToSection }) {
               to='skills'
               smooth={true}
               duration={500}
-              onClick={() => scrollToSection('skills')}
+              onClick={() => closeMenu('skills')}
             >
               Skills
             </Link>
@@ -57,7 +73,7 @@ function Navbar({ scrollToSection }) {
               className='navbar-btn'
               smooth={true}
               duration={500}
-              onClick={() => scrollToSection('contact')}
+              onClick={() => closeMenu('contact')}
             >
               Contact Me
             </Link>
@@ -67,4 +83,5 @@ function Navbar({ scrollToSection }) {
     </header>
   );
 }
+
 export default Navbar;

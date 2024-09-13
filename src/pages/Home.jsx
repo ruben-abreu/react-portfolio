@@ -22,7 +22,8 @@ function Home() {
   }, [text]);
 
   return (
-    <div className='flex items-center justify-center h-[80vh]'>
+    <div className='flex items-center justify-center h-[80vh] pt-[80px] md:pt-[0]'>
+      {/* Added padding-top of 80px for mobile, no padding on larger screens */}
       <div className='flex flex-col items-center'>
         <div className='text-center md:text-xl'>
           <div>
