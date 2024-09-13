@@ -7,7 +7,7 @@ function About() {
         About <span className='text-white'>Me</span>
       </h2>
       <div className='flex flex-col lg:flex-row lg:justify-center items-center'>
-        <div className='max-w-[65%] p-4 pt-0 text-justify border border-white mx-auto lg:mr-10 lg:order-2'>
+        <div className='lg:max-w-[65%] p-4 pt-0 text-justify border border-white mx-auto lg:mr-10 lg:order-2'>
           <p className='mt-12'>
             &ensp;I started as full stack developer with a transformative
             experience at Ironhack, renowned as one of the best bootcamps

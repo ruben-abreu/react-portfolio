@@ -42,8 +42,8 @@ function Home() {
           />
         </div>
         <div className='md:flex items-center justify-center gap-4 md:mt-8'>
-          <button className='navbar-btn'>
-            <ArticleIcon className='mr-1' />
+          <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px]'>
+            <ArticleIcon className='mr-2' />
             My CV
           </button>
           <a
@@ -51,8 +51,8 @@ function Home() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='navbar-btn'>
-              <LinkedInIcon className='mr-1' />
+            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px]'>
+              <LinkedInIcon className='mr-2' />
               LinkedIn
             </button>
           </a>
@@ -61,8 +61,8 @@ function Home() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='navbar-btn'>
-              <GitHubIcon className='mr-1' />
+            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px]'>
+              <GitHubIcon className='mr-2' />
               Github
             </button>
           </a>
