@@ -44,17 +44,17 @@ function Projects() {
       <h2 className='text-white text-2xl font-bold mb-4'>
         My <span className='text-[#0174be]'>Projects</span>
       </h2>
-      <div className='flex justify-center items-center bg-lightblue p-8 flex-wrap'>
+      <div className='flex justify-center items-center bg-lightblue p-8 flex-wrap gap-4 md:gap-8'>
         {cardsData.map(card => (
           <Card
             key={card.id}
             sx={{
               maxWidth: 345,
               bgcolor: 'inherit',
-              marginRight: '1rem',
-              boxShadow: '0 8px 32px 0 rgba(1, 116, 190, 0.37)', // Add this line for the glowing effect
+              margin: '1rem',
+              boxShadow: '0 8px 32px 0 rgba(1, 116, 190, 0.37)',
             }}
-            className='lg:h-[500px] shadow-custom' // Assuming "shadow-custom" is the class for the glowing effect in the navbar
+            className='lg:h-[500px] shadow-custom'
           >
             <CardMedia
               component='img'

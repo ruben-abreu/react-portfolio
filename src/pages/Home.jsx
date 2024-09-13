@@ -41,29 +41,31 @@ function Home() {
             width='240px'
           />
         </div>
-        <div className='md:flex items-center justify-center gap-4 md:mt-8'>
-          <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px]'>
-            <ArticleIcon className='mr-2' />
-            My CV
-          </button>
-          <a
-            href='https://www.linkedin.com/in/rm-abreu/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px]'>
-              <LinkedInIcon className='mr-2' />
-              LinkedIn
-            </button>
-          </a>
+        <div className='flex flex-col md:flex-row items-center justify-center gap-4 mt-4 md:mt-8'>
           <a
             href='https://github.com/ruben-abreu'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px]'>
+            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px] mb-4 md:mb-0'>
               <GitHubIcon className='mr-2' />
               Github
+            </button>
+          </a>
+          <a
+            href='https://www.linkedin.com/in/rm-abreu/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px] mb-4 md:mb-0'>
+              <LinkedInIcon className='mr-2' />
+              LinkedIn
+            </button>
+          </a>
+          <a href='#' target='_blank' rel='noopener noreferrer'>
+            <button className='navbar-btn flex items-center justify-center w-[150px] h-[45px] mb-4 md:mb-0'>
+              <ArticleIcon className='mr-2' />
+              My CV
             </button>
           </a>
         </div>
