@@ -12,6 +12,10 @@
     "imageUrl": "../skills/python.svg"
   },
   {
+    "name": "Typescript",
+    "imageUrl": "../skills/typescript.svg"
+  },
+  {
     "name": "Django",
     "imageUrl": "../skills/django.svg"
   },
@@ -26,10 +30,6 @@
   {
     "name": "Tailwind-CSS",
     "imageUrl": "../skills/tailwind-css.svg"
-  },
-  {
-    "name": "Excel",
-    "imageUrl": "../skills/excel.svg"
   },
   {
     "name": "Git",
